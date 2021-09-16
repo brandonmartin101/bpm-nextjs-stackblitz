@@ -1,16 +1,15 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Brandon Martin | Web Developer | Genius</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>I am Brandon Martin</h1>
-        <h2 className={styles.description}>
+      <main className="main">
+        <h1 className="title">I am Brandon Martin</h1>
+        <h2 className="description">
           Front-End Web Developer and&nbsp;
           <a className="hint" href="#">
             GENIUS
@@ -20,7 +19,7 @@ export default function Home() {
         <div className="social">
           <a
             href="https://www.linkedin.com/in/brandon-martin/"
-            className={styles.card}
+            className="icon"
             data-platform="linkedin"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +43,7 @@ export default function Home() {
           </a>
           <a
             href="https://github.com/brandonmartin101"
-            className={styles.card}
+            className="icon"
             data-platform="github"
             target="_blank"
             rel="noopener noreferrer"
@@ -66,7 +65,7 @@ export default function Home() {
           </a>
           <a
             href="mailto:brandon.martin101@gmail.com"
-            className={styles.card}
+            className="icon"
             data-platform="email"
             rel="noopener noreferrer"
           >
@@ -89,7 +88,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="footer">
         <a href="#" target="_blank" rel="noopener noreferrer">
           Built With Next.js
         </a>
